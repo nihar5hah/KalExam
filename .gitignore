@@ -1,52 +1,22 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Firebase
+.firebase/
+firebase-debug.log
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# testing
-/coverage
-
-# next.js
+# Next.js build output (root level)
 /.next/
-/out/
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
+# Environment
 .env*
 
-# vercel
-.vercel
+# macOS
+.DS_Store
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Dependencies
+node_modules/
 
-# create-next-app template leftovers
-public/file.svg
-public/globe.svg
-public/next.svg
-public/vercel.svg
-public/window.svg
-
-# AI tooling — GSD (Get Shit Done) plugin and OpenCode
-.planning/
-.opencode/
+# Backend build output
+backend/dist/
+backend/src/**/*.js
+backend/src/**/*.js.map
+backend/src/**/*.d.ts
+backend/src/**/*.d.ts.map
